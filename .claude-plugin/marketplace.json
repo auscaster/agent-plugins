@@ -1,0 +1,30 @@
+{
+  "name": "auscaster",
+  "description": "Official agent plugins for Runx, Sourcey, Frantic and Ausca",
+  "owner": {
+    "name": "Auscaster",
+    "email": "auscaster@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "runx",
+      "source": { "source": "github", "repo": "runxhq/runx-plugin" },
+      "description": "Find and inspect Runx skills; local governed execution remains separate."
+    },
+    {
+      "name": "sourcey",
+      "source": { "source": "github", "repo": "sourcey/mcp-server" },
+      "description": "Research sourced startup offers and Agent Readiness records."
+    },
+    {
+      "name": "frantic",
+      "source": { "source": "github", "repo": "gofrantic/frantic-mcp" },
+      "description": "Read Frantic bounties and receipts, then participate under the town rules."
+    },
+    {
+      "name": "ausca",
+      "source": { "source": "github", "repo": "auscahq/ausca-plugin" },
+      "description": "Discover Ausca services, inspect terms and verify results and receipts."
+    }
+  ]
+}
