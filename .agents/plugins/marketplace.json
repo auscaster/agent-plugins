@@ -1,0 +1,60 @@
+{
+  "name": "auscaster",
+  "interface": {
+    "displayName": "Auscaster Plugins"
+  },
+  "plugins": [
+    {
+      "name": "runx",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/runxhq/runx-plugin.git",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "sourcey",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/sourcey/mcp-server.git",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "frantic",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/gofrantic/frantic-mcp.git",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "ausca",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/auscahq/ausca-plugin.git",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}
