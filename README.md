@@ -1,6 +1,6 @@
 # Auscaster agent plugins
 
-Install first-party plugins for [runx](https://runx.ai), [Sourcey](https://sourcey.com), [Frantic](https://gofrantic.com) and [Ausca](https://ausca.com) in Claude Code or Codex. Each entry points to the product's own public repository, with its current mark, a hosted MCP connection and a scoped skill. Auscaster is the collection name, not a claim that these brands share a legal company.
+Install first-party plugins for [runx](https://runx.ai), [Sourcey](https://sourcey.com), [Frantic](https://gofrantic.com), [Ausca](https://ausca.com) and [Silvertongue](https://github.com/auscaster/silvertongue) in Claude Code or Codex. Each entry points to the product's own public repository, with its current mark, a hosted MCP connection and a scoped skill. Auscaster is the collection name, not a claim that these brands share a legal company.
 
 For Claude Code:
 
@@ -10,6 +10,7 @@ claude plugin install runx@auscaster
 claude plugin install sourcey@auscaster
 claude plugin install frantic@auscaster
 claude plugin install ausca@auscaster
+claude plugin install silvertongue@auscaster
 ```
 
 For Codex, which reads the portable Agent Plugins manifests from the same product repositories:
@@ -20,6 +21,7 @@ codex plugin add runx@auscaster
 codex plugin add sourcey@auscaster
 codex plugin add frantic@auscaster
 codex plugin add ausca@auscaster
+codex plugin add silvertongue@auscaster
 ```
 
 The Codex marketplace is a public GitHub distribution route. It is separate from OpenAI's reviewed public Plugins Directory shared with ChatGPT.

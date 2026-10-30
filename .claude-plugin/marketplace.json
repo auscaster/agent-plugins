@@ -1,6 +1,6 @@
 {
   "name": "auscaster",
-  "description": "Official agent plugins for Runx, Sourcey, Frantic and Ausca",
+  "description": "Official agent plugins for Runx, Sourcey, Frantic, Ausca and Silvertongue",
   "owner": {
     "name": "Auscaster",
     "email": "auscaster@gmail.com"
@@ -25,6 +25,11 @@
       "name": "ausca",
       "source": { "source": "github", "repo": "auscahq/ausca-plugin" },
       "description": "Discover Ausca services, inspect terms and verify results and receipts."
+    },
+    {
+      "name": "silvertongue",
+      "source": { "source": "github", "repo": "auscaster/silvertongue" },
+      "description": "Write like anyone famous: studied writing voices for your posts, replies and threads."
     }
   ]
 }
