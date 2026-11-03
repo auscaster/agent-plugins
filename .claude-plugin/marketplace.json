@@ -1,8 +1,8 @@
 {
   "name": "auscaster",
-  "description": "Official agent plugins for Runx, Sourcey, Frantic, Ausca and Silvertongue",
+  "description": "Official agent plugins for Runx, Sourcey, Frantic, Ausca, Silvertongue and UGT",
   "owner": {
-    "name": "Auscaster",
+    "name": "auscaster",
     "email": "auscaster@gmail.com"
   },
   "plugins": [
@@ -30,6 +30,11 @@
       "name": "silvertongue",
       "source": { "source": "github", "repo": "auscaster/silvertongue" },
       "description": "Write like anyone famous: studied writing voices for your posts, replies and threads."
+    },
+    {
+      "name": "ugt",
+      "source": { "source": "github", "repo": "auscaster/ugt" },
+      "description": "Give your AI app any GitHub link and the job you want done. UGT gets the project running on your computer and hands you the result."
     }
   ]
 }
